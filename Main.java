@@ -18,7 +18,7 @@ public class Main {
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
-            sc.nextLine(); // Clear buffer
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -53,7 +53,7 @@ public class Main {
         String name = sc.nextLine();
         System.out.print("Enter progress (0-100): ");
         int progress = sc.nextInt();
-        sc.nextLine(); // Clear buffer
+        sc.nextLine();
 
         Skill skill = new Skill(name, progress);
         skills.add(skill);
