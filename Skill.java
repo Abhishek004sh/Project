@@ -3,7 +3,7 @@ import java.time.LocalDate;
 
 public class Skill {
     private String name;
-    private int progress; // 0 to 100
+    private int progress; 
     private LocalDate lastUpdated;
 
     public Skill(String name, int progress) {
@@ -12,7 +12,7 @@ public class Skill {
         this.lastUpdated = LocalDate.now();
     }
 
-    // Getters
+    
     public String getName() {
         return name;
     }
@@ -25,7 +25,7 @@ public class Skill {
         return lastUpdated.toString();
     }
 
-    // Setters
+    
     public void setProgress(int progress) {
         this.progress = progress;
         this.lastUpdated = LocalDate.now();
